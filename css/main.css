@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: Verdana;
+  font-weight: 100;
+}
+body h1,
+body h2,
+body h3 {
+  font-weight: 100;
+}
+.container {
+  width: 960px;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.col-1 {
+  width: 49%;
+  float: left;
+}
+.col-2 {
+  width: 49%;
+  float: right;
+}
+#section_1 {
+  background: url("../img/bg_top.jpg") left center no-repeat;
+  background-size: cover;
+  min-height: 750px;
+  overflow: hidden;
+}
+#section_1 .col-1 {
+  width: 42%;
+}
+#section_1 .col-2 {
+  width: 58%;
+}
+#section_1 img {
+  margin-top: 30px;
+  vertical-align: middle;
+}
+#section_1 .otp {
+  float: right;
+}
+#section_1 h1 {
+  color: #9da0aa;
+  margin-top: 100px;
+  font-size: 50px;
+  font-family: Verdana;
+  font-weight: 100;
+}
+#section_1 p {
+  color: #000;
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 0 55px 0 0;
+  line-height: 30px;
+  margin-bottom: 50px;
+}
+#section_1 .button {
+  background-color: #4db848;
+  padding: 20px 10px;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: Verdana;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+#section_1 .hand_w_c {
+  margin-top: 108px;
+}
+#section_2 {
+  background: #ffffff;
+  margin-top: 30px;
+}
+#section_2 img {
+  margin-top: 20px;
+}
+#section_2 .bag {
+  margin: 120px 0 10px 0;
+}
+#section_2 h2 {
+  padding: 0 170px 0 0;
+  margin: 0 0 40px 0;
+  color: #4c4e5e;
+}
+#section_2 p {
+  font-size: 12px;
+  color: #4c4e5e;
+  line-height: 30px;
+  padding: 0 215px 0 0;
+}
